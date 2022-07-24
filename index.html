@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do List</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="topo">
+        
+            <div class="formulario">
+        
+                <input class="txttarefa" id="tarefa" type="text" placeholder="Escreva as suas próximas tarefas" autofocus/>
+                <br>
+                <button class="btnincluir" onclick="incluirTarefa(tarefa.value)">Incluir Tarefa</button>
+                <p class="limpar"><a class="limpar" href="javascript:limpaTudo()">Limpar tudo</a></p>
+            
+            </div>
+       
+    </header>
+
+    <section class="listaTarefas">
+      
+           <table class="tab">
+                <tr  class="linhas" id="lista">
+                       
+                </tr>
+            </table>
+   
+    </section>
+    <script src="tasks.js"></script>
+    
+    
+</body>
+</html>
