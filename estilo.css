@@ -71,15 +71,17 @@
     height: 100vh;
 }
 
-.linhas{
+/* .linhas{
     font-size: 40px;
-}
+} */
 
-.tab{
+.lista{
     display: flex;
     flex-direction: row;
     justify-content: center;
     padding-top: 10vh;
+    font-size: 40px;
+    
 }
 
 td:nth-child(1) {

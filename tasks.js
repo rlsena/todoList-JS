@@ -16,7 +16,7 @@ if(task){
 function exibeTarefas(task){
 
     
-    let tabela = document.getElementById("lista");
+    let tabela = document.getElementById("tab");
     
     tabela.innerHTML = "";
     
